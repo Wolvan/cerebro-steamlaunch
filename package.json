@@ -1,0 +1,33 @@
+{
+    "name": "cerebro-steamlaunch",
+    "version": "0.1.0",
+    "dependencies": {
+        "cerebro-tools": "^0.1.8",
+        "cerebro-ui": "^0.0.16",
+        "simple-vdf2": "^1.1.1"
+    },
+    "devDependencies": {
+        "cerebro-scripts": "0.0.19"
+    },
+    "main": "dist/index.js",
+    "keywords": [
+        "cerebro",
+        "cerebro-plugin"
+    ],
+    "scripts": {
+        "start": "cerebro-scripts start",
+        "build": "cerebro-scripts build",
+        "test": "cerebro-scripts test"
+    },
+    "description": "A Cerebro Plugin that allows to launch your installed Steam Games",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wolvan/cerebro-steamlaunch.git"
+    },
+    "author": "Wolvan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Wolvan/cerebro-steamlaunch/issues"
+    },
+    "homepage": "https://github.com/Wolvan/cerebro-steamlaunch#readme"
+}
